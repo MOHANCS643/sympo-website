@@ -34,7 +34,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CYVIS'25 — National Level Symposium</title>
-  <meta name="description" content="CYVIS'25 — National Level Technical Symposium by Dept. of CSE. Compete in Coding, Paper Presentation, Tech Quiz, Debugging and more!"/>
+  <meta name="description" content="CYVISTA'25 — National Level Technical Symposium by Dept. of CSE. Compete in Coding, Paper Presentation, Tech Quiz, Debugging and more!"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -243,9 +243,9 @@
 
     <div class="grid">
       <div>
-        <span class="tag">Dept. of CSE • National Level</span>
+        <span class="tag">Dept of CYBERSECURITY • National Level</span>
         <h1>
-          <span class="gradient-txt">CYVIS'25</span> Symposium
+          <span class="gradient-txt">CYVISTA'25</span> Symposium
         </h1>
         <p class="lead">
           <span id="typed"></span>
@@ -255,9 +255,9 @@
           <a class="btn ghost" href="#schedule">View Schedule</a>
         </div>
         <div class="statbar" aria-label="Quick facts">
-          <div class="chip">🏆 Prize Pool ₹ <b id="prizePool">50,000</b></div>
+          <div class="chip">🏆 Prize Pool ₹ <b id="prizePool">15,000</b></div>
           <div class="chip">👥 Team Size: Max <b>2</b> (Coding)</div>
-          <div class="chip">📍 Venue: <b>Dept. of CSE</b></div>
+          <div class="chip">📍 Venue: <b>Dept of CYBERSECURITY</b></div>
         </div>
         <div class="countdown" id="countdown" aria-label="Event countdown"></div>
       </div>
@@ -277,16 +277,16 @@
 
     <div class="ticker" aria-hidden="false">
       <div class="row">
-        <div class="pill">🎯 Coding — <b>Team of 2</b></div>
+        <div class="pill">🎯 SYnapCode— <b>Team of 2</b></div>
         <div class="pill">📜 Paper Presentation — <b>Team of 2</b></div>
-        <div class="pill">🧠 Tech Quiz — <b>Team of 3</b></div>
-        <div class="pill">🐞 Debugging — <b>Solo</b></div>
+        <div class="pill">🧠 UI/UX — <b>Team of 3</b></div>
+        <div class="pill">🐞 Workshop — <b>Solo</b></div>
         <div class="pill">🎁 Goodies & Certificates</div>
         <div class="pill">☕ Snacks & Fun Games</div>
-        <div class="pill">🎯 Coding — <b>Team of 2</b></div>
-        <div class="pill">📜 Paper Presentation — <b>Team of 2</b></div>
-        <div class="pill">🧠 Tech Quiz — <b>Team of 3</b></div>
-        <div class="pill">🐞 Debugging — <b>Solo</b></div>
+        <div class="pill">🎯 Subway Actors — <b>Team of 2</b></div>
+        <div class="pill">📜  CTF — <b>Team of 2</b></div>
+        <div class="pill">🧠 MemeFix— <b>Team of 3</b></div>
+        <div class="pill">🐞 Music — <b>Team of 4</b></div>
       </div>
     </div>
   </section>
@@ -484,8 +484,8 @@
     new Typed('#typed', {
       strings: [
         "National Level Technical Symposium",
-        "Coding • Paper • Quiz • Debugging",
-        "Network • Learn • Win Prizes 💫",
+        "Coding • Paper • UI/UX •CTF • Memefix",
+         "Workshop • Music • Win Prizes 💫",
       ],
       typeSpeed: 40,
       backSpeed: 26,
@@ -495,7 +495,7 @@
 
     // -------------------- COUNTDOWN --------------------
     // TODO: Set your real date/time (yyyy, mm-1, dd, hh, mm)
-    const EVENT_START = new Date(2025, 8, 15, 9, 0); // Sept 15, 2025 09:00
+    const EVENT_START = new Date(2025, 8, 15, 9, 0); // Sept 16, 2025 09:00
     const cdRoot = $('#countdown');
     const seg = (n, l) => `<div class="box"><div class="num">${n}</div><div class="muted">${l}</div></div>`;
     const tick = () => {
